@@ -44,10 +44,10 @@ header {
 }
 
 h1  {
-    font-size: 26px;
+    font-size: 22px;
     margin-left: 10px;
     text-align: left;
-    font-weight: lighter;
+    font-weight: 400;
     color: white;
 }
 
@@ -156,41 +156,39 @@ h3  {
 }
 
 .facebook {
-    width: 13%;
+    width: 15%;
     margin-left: 1.2rem;
 }
 
 .twitter {
-    width: 13%;
+    width: 15%;
     position: relative;
     left: 44%; 
-    top: -3.3rem;
+    top: -3.7rem;
 }
 
 .instagram {
-    width: 13%;
+    width: 15%;
     position: relative;
     left: 80%; 
-    top: -10.2rem;
+    top: -11.6rem;
 }
 
 .youtube {
-    width: 13%;
+    width: 15%;
     position: relative;
     left: 63%; 
-    top: -8.2rem;
+    top: -9.4rem;
 }
 
 .pinterest {
-    width: 13%;
+    width: 15%;
     position: relative;
     left: 25%; 
     top: -1.6rem;
 }
 
 footer  {
-    height: 20rem;
+    height: 25.5rem;
     {
-
-
 
