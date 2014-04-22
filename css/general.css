@@ -106,32 +106,46 @@ img {
     display: block;
     margin-left: 1.2rem;
     margin-top: -4rem;
+    margin-bottom: 1rem;
     border: solid 3px #990033;
 }
 
-
-
-
-
-
 figure {
+    background-color: white;
     margin: 0 auto 1.5rem;
+    margin: 1.2rem;
     width: 40%;
     height: 10%;
+    border: .2rem solid #990033;
 }
 
 figcaption {
     font-size: 10px;
     padding: .5rem 5%;
     text-transform: uppercase;
+    border:.1rem solid #990033 ;
 }
 
-figure {
-    background-color: white;
+.thismonth  {
+    position: relative;
+    left: 49.5%; 
+    top: -11.6rem;
 }
 
 p   {
     color: white;
+}
+
+.contactnumber  {
+    margin-top: -8rem;
+    margin-bottom: 4rem;
+    margin-left: 1.2rem;
+}
+
+.contactemail   {
+    position: relative;
+    left: 55%; 
+    top: -4.75rem;
 }
 
 h3  {
@@ -140,3 +154,43 @@ h3  {
     text-transform: uppercase;
     font-size: 12px;
 }
+
+.facebook {
+    width: 13%;
+    margin-left: 1.2rem;
+}
+
+.twitter {
+    width: 13%;
+    position: relative;
+    left: 44%; 
+    top: -3.3rem;
+}
+
+.instagram {
+    width: 13%;
+    position: relative;
+    left: 80%; 
+    top: -10.2rem;
+}
+
+.youtube {
+    width: 13%;
+    position: relative;
+    left: 63%; 
+    top: -8.2rem;
+}
+
+.pinterest {
+    width: 13%;
+    position: relative;
+    left: 25%; 
+    top: -1.6rem;
+}
+
+footer  {
+    height: 20rem;
+    {
+
+
+
