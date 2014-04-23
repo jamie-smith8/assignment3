@@ -127,19 +127,18 @@ li  {
     text-transform: uppercase;
     padding-left: 0;
     position: relative;
-    left: 5%;
 
 }
 
 .email {
     position: relative;
-    left: 45%;
+    left: 40%;
     margin-top: -7%;
 }
 
 .livechat   {
     position: relative;
-    left: 45%;
+    left: 40%;
     padding-right: 19%;
 }
 
@@ -271,37 +270,42 @@ h1 {
 }
 
 .facebook   {
-    width: 14.8%;
-    margin: 11.8% 14%;
+    width: 10%;
+    position: absolute;
+    left: 10%;
+    padding: 10% 0;
 }
 
 .twitter   {
-    width: 13%;
+    width: 10%;
     position: absolute;
-    margin-left: 43%;
-    margin-top: 9%;
+    left: 45%;
+    padding: 10% 0;
 }
 
 .pinterest   {
-    width: 16.6%;
-    margin-top: 9%;
+    width: 10%;
     position: absolute;
-    margin-left: 69%;
+    margin-left: 80%;
+    padding: 10% 0;
 }
 
 .youtube  {
-    width: 13%;
-    margin: -10%;
+    width: 10%;
     position: absolute;
-    margin-left: 57%;
+    left: 62.5%;
+    padding: 10% 0;
 }
 
 .instagram  {
-    width: 13%;
-    margin: -10% 30%;
+    width: 10%;
+    position: absolute;
+    left: 27.5%;
+    padding: 10% 0;
 }
 
 footer  {
+    padding-top: 5%;
     padding-bottom: 15%;
 
 }
