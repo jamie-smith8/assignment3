@@ -146,7 +146,7 @@ li  {
 .email {
     position: relative;
     left: 45%;
-    margin-top: 5%;
+    margin-top: -7%;
 }
 
 .livechat   {
@@ -259,7 +259,7 @@ h6  {
 }
 
 .product7    {
-   width: 40%;
+    width: 40%;
     margin-left: 5%;
     position: absolute;
     margin-left: 54%;
@@ -271,39 +271,39 @@ h6  {
 }
 
 .facebook   {
-    width: 22%;
-    margin: 8% 5%;
+    width: 14.8%;
+    margin: 11.8% 10%;
 }
 
 .twitter   {
-    width: 20%;
-    margin: 8% 5%;
+    width: 13%;
+    margin: 8% 2%;
     position: absolute;
     margin-left: 40%;
 }
 
 .pinterest   {
-    width: 26%;
-    margin: 8% 1%;
+    width: 16.6%;
+    margin: 8% 0%;
     position: absolute;
     margin-left: 70%;
 }
 
 .youtube  {
-    width: 20%;
-    margin: 0 5%;
+    width: 13%;
+    margin: -9% 5%;
     position: absolute;
     margin-left: 57%;
 }
 
 .instagram  {
-    width: 20%;
-    margin: 10% 23%;
+    width: 13%;
+    margin: -9% 26%;
 }
 
 footer  {
-    padding-bottom: 1rem;
-    margin-top: 130%;
+    padding-bottom: 4rem;
+    margin-top: 80%;
 }
 
 span    {
