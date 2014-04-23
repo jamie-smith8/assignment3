@@ -66,7 +66,7 @@ header {
 	margin: 0;
 	padding: 1.5rem 10%;
 	color: white;
-	font-size: 1em; 
+	font-size: 14px; 
 	text-decoration: none;
 }
 
@@ -119,22 +119,40 @@ figcaption {
     background-color: white;
 }
 
+ul  {
+    list-style: none;
+}
+
+li  {
+    color: white;
+    margin-left: 2%;
+    text-transform: uppercase;
+    font-size: 10px;
+
+}
+
 .number {
     color: white;
     margin-top: 70%;
     margin-left: -5%;
     text-transform: uppercase;
     font-size: 10px;
-    margin-bottom: 10%;
+    padding-left: 0;
+    position: relative;
+    left: 5%;
+
 }
 
 .email {
-    color: white;
-    margin-top: -16%;
-    margin-left: 45%;
-    text-transform: uppercase;
-    font-size: 10px;
-    position: absolute;
+    position: relative;
+    left: 45%;
+    margin-top: 5%;
+}
+
+.livechat   {
+    position: relative;
+    left: 45%;
+    padding-right: 19%;
 }
 
 p   {
@@ -254,7 +272,7 @@ h6  {
 
 .facebook   {
     width: 22%;
-    margin: 18% 5%;
+    margin: 8% 5%;
 }
 
 .twitter   {
@@ -285,7 +303,7 @@ h6  {
 
 footer  {
     padding-bottom: 1rem;
-    margin-top: 20%;
+    margin-top: 130%;
 }
 
 span    {
