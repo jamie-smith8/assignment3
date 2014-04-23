@@ -22,7 +22,6 @@ html {
 }
 
 body {
-    outline: grey  solid 4px;
     margin: 2px;
     padding: 0;
     background-color: black;
@@ -40,7 +39,7 @@ header {
     overflow: hidden;
     height: 6rem;
     stroke: red;
-    outline: grey solid 4px;
+    outline: black solid 1rem;
 }
 
 .nav-top {
@@ -66,16 +65,8 @@ header {
 	margin: 0;
 	padding: 1.5rem 10%;
 	color: white;
-	font-size: 14px; 
+	font-size: 1rem; 
 	text-decoration: none;
-}
-
-h1  {
-    font-size: 22px;
-    margin-left: 10px;
-    text-align: left;
-    font-weight: 400;
-    color: white;
 }
 
 img {
@@ -88,11 +79,9 @@ img {
 }
 
 h1  {
-    color: white;
-    margin: 5%;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 19.4px;
+    font-size: 2rem;
     text-align: center;
     color: black;
     background-color: white;
@@ -113,10 +102,11 @@ figure {
 }
 
 figcaption {
-    font-size: 16px;
+    font-size: 1rem;
     padding: .5rem 5%;
     text-transform: uppercase;
     background-color: white;
+    text-align: center;
 }
 
 ul  {
@@ -127,16 +117,14 @@ li  {
     color: white;
     margin-left: 2%;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: .6rem;
 
 }
 
 .number {
-    color: white;
     margin-top: 70%;
     margin-left: -5%;
     text-transform: uppercase;
-    font-size: 10px;
     padding-left: 0;
     position: relative;
     left: 5%;
@@ -155,14 +143,9 @@ li  {
     padding-right: 19%;
 }
 
-p   {
-    color: white;
-    font-size: 18px;
-    font-weight: lighter;
-    padding-right: 1.2rem;
-    padding-left: 1.2rem;
-    margin-top: -14px;
-    margin-bottom: -5rem;
+.firstpicture   {
+    margin: 0 auto;
+    width: 90%;
 }
 
 h5  {
@@ -171,15 +154,11 @@ h5  {
     font-size: 22px;
     font-weight: lighter;
     margin-left: 1.2rem;
-    margin-top: -1px;
+    margin-top: .5rem;
     border-bottom:  1px solid white;
     margin-right: 1.2rem;
     padding: 6px 0;
-}
-
-.firstpicture   {
-    margin: 0 auto;
-    width: 90%;
+    margin-bottom: 1.5rem;
 }
 
 .whowewere  {
@@ -197,6 +176,16 @@ h5  {
    width:20%;
     margin-left: 1.2rem;
     margin-top: 8rem;
+}
+
+p   {
+    color: white;
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    margin-top: -14px;
+    position: absolute;
 }
 
 .largepicture   {
@@ -234,6 +223,16 @@ h6  {
     margin-left: 5%;
 }
 
+h1 {
+    margin: 2rem 0;
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    padding: .5rem 0;
+}
+
 .product3    {
     width: 40%;
     margin-left: 5%;
@@ -268,42 +267,43 @@ h6  {
 .product8    {
     width: 40%;
     margin-left: 5%;
+    position: absolute;
 }
 
 .facebook   {
     width: 14.8%;
-    margin: 11.8% 10%;
+    margin: 11.8% 14%;
 }
 
 .twitter   {
     width: 13%;
-    margin: 8% 2%;
     position: absolute;
-    margin-left: 40%;
+    margin-left: 43%;
+    margin-top: 9%;
 }
 
 .pinterest   {
     width: 16.6%;
-    margin: 8% 0%;
+    margin-top: 9%;
     position: absolute;
-    margin-left: 70%;
+    margin-left: 69%;
 }
 
 .youtube  {
     width: 13%;
-    margin: -9% 5%;
+    margin: -10%;
     position: absolute;
     margin-left: 57%;
 }
 
 .instagram  {
     width: 13%;
-    margin: -9% 26%;
+    margin: -10% 30%;
 }
 
 footer  {
-    padding-bottom: 4rem;
-    margin-top: 80%;
+    padding-bottom: 15%;
+
 }
 
 span    {
