@@ -112,10 +112,8 @@ img {
 
 figure {
     background-color: white;
-    margin: 0 auto 1.5rem;
     margin: 1.2rem;
     width: 40%;
-    height: 10%;
     border: .2rem solid #990033;
 }
 
@@ -130,10 +128,15 @@ figcaption {
     position: relative;
     left: 49.5%; 
     top: -11.6rem;
+    margin-bottom: -19rem;
 }
 
 p   {
     color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
 }
 
 .contactnumber  {
@@ -182,13 +185,150 @@ h3  {
 }
 
 .pinterest {
-    width: 15%;
+    width: 19%;
     position: relative;
     left: 25%; 
     top: -1.6rem;
 }
 
 footer  {
+    margin-top: 15rem;
     height: 25.5rem;
-    {
+}
 
+h4  {
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 7.2rem;
+    margin-top: -1.6rem;
+}
+
+.whowewere  {
+    width: 20%;
+    margin-left: 1.2rem;
+    border: solid 2px #990033;
+    margin-top: 4rem;
+}
+
+.whoweare   {
+    width: 20%;
+    margin-left: 1.2rem;
+    border: solid 2px #990033;
+    margin-top: 4rem;
+}
+
+.whereweregoing {
+    width: 20%;
+    margin-left: 1.2rem;
+    border: solid 2px #990033;
+    margin-top: 4rem;
+}
+
+.product1   {
+    width: 40%;
+    margin-left: 1.2rem;
+    border: solid 3px #990033;
+}
+
+.price1 {
+    margin-left: 3.5rem;
+}
+
+.product2   {
+    width: 40%;
+    border: solid 3px #990033;
+    position: relative;
+    left: 55%; 
+    top: -13.6rem;
+}
+
+.price2 {
+    position: relative;
+    left: 65%; 
+    top: -13.6rem;
+}
+    
+.product3   {
+    width: 40%;
+    border: solid 3px #990033;
+    position: relative;
+    left: 1.2rem; 
+    top: -13.6rem;
+}
+
+.price3 {
+    position: relative;
+    left: 15%;
+    top: -13.5rem;
+}
+
+.product4   {
+    width: 40%;
+    border: solid 3px #990033;
+    position: relative;
+    left: 55%; 
+    top: -27.2rem;
+}
+
+.price4 {
+    position: relative;
+    left: 65%; 
+    top: -27.2rem;
+}
+
+.product5   {
+    width: 40%;
+    border: solid 3px #990033;
+    position: relative;
+    left: 55%; 
+    top: -27.2rem;
+}
+
+.price5 {
+    position: relative;
+    left: 65%; 
+    top: -27.2rem;
+}
+
+.product6   {
+    width: 40%;
+    border: solid 3px #990033;
+    position: relative;
+    left: 1.2rem; 
+    top: -40.83rem;
+}
+
+.price6 {
+    position: relative;
+    left: 15%;
+    top: -40.83rem;
+}
+
+.product7   {
+    width: 40%;
+    border: solid 3px #990033;
+    position: relative;
+    left: 1.2rem; 
+    top: -40.83rem;
+}
+
+.price7 {
+    position: relative;
+    left: 15%;
+    top: -40.83rem;
+}
+
+.product8   {
+    width: 40%;
+    border: solid 3px #990033;
+    position: relative;
+    left: 55%; 
+    top: -54.4rem;
+}
+
+.price8 {
+    position: relative;
+    left: 65%;
+    top: -54.4rem;
+}
