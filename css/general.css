@@ -43,6 +43,33 @@ header {
     outline: #990033  solid 4px;
 }
 
+.nav-top {
+    background-color: black;
+}
+
+.nav-top ul {
+    margin: 0 1.2rem;
+    padding: 0;
+	text-align: center;	
+}
+
+.nav-top li {
+    margin: -1rem;
+    padding: 0;
+    display: inline; 
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+	display: inline-block;
+	margin: 0;
+	padding: 1.5rem 10%;
+	color: white;
+	font-size: 1em; 
+	text-decoration: none;
+}
+
 h1  {
     font-size: 22px;
     margin-left: 10px;
@@ -51,84 +78,52 @@ h1  {
     color: white;
 }
 
-.home   {
-    margin: 10px;
-    padding: .2rem;
-    height: 2.2rem;
-    width: 7rem;
-    background-color: white;
-    border: .2rem solid #990033;
-}
-
-.products   {
-    margin: 4px;
-    padding: .2rem;
-    height: 2.2rem;
-    width: 7rem;
-    background-color: white;
-    border: .2rem solid #990033;
-}
-
-.company  {
-    margin: 4px;
-    padding: .2rem;
-    height: 2.2rem;
-    width: 7rem;
-    background-color: white;
-    border: .2rem solid #990033;
-}
-
-h2  {
-    text-align: center;
-    margin: 0;
-    font-weight: 100;
-    font-size: 18px;
-}
-
-.company {
-    position: relative;
-    left: 67%; 
-    top: -5.3rem;
-}
-
-.products   {
-    position: relative;
-    left: 34.3%; 
-    top: -2.8rem;
-}
-
 img {
     width: 100%;
 }
 
 .bigpicture {
-    max-width: 90%;
-    display: block;
-    margin-left: 1.2rem;
-    margin-top: -4rem;
-    margin-bottom: 1rem;
-    border: solid 3px #990033;
+    margin: 0 auto 1.5rem;
+    width: 90%;
 }
 
 figure {
-    background-color: white;
     margin: 1.2rem;
+    padding: 5px;
+    height: 40%;
     width: 40%;
-    border: .2rem solid #990033;
+    text-align: center;
+    float: center;
 }
 
 figcaption {
-    font-size: 10px;
+    font-size: 16px;
     padding: .5rem 5%;
     text-transform: uppercase;
-    border:.1rem solid #990033 ;
+    background-color: white;
 }
 
 .thismonth  {
     position: relative;
     left: 49.5%; 
-    top: -11.6rem;
+    top: -13.3rem;
     margin-bottom: -19rem;
+}
+
+.number {
+    color: white;
+    margin-top: 15rem;
+    margin-left:-1.1rem;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.email {
+    color: white;
+    margin-top: -1.38rem;
+    margin-left: 45%;
+    text-transform: uppercase;
+    font-size: 10px;
 }
 
 p   {
@@ -137,198 +132,41 @@ p   {
     font-weight: lighter;
     padding-right: 1.2rem;
     padding-left: 1.2rem;
-}
-
-.contactnumber  {
-    margin-top: -8rem;
-    margin-bottom: 4rem;
-    margin-left: 1.2rem;
-}
-
-.contactemail   {
-    position: relative;
-    left: 55%; 
-    top: -4.75rem;
-}
-
-h3  {
-    color: white;
-    font-weight: lighter;
-    text-transform: uppercase;
-    font-size: 12px;
-}
-
-.facebook {
-    width: 15%;
-    margin-left: 1.2rem;
-}
-
-.twitter {
-    width: 15%;
-    position: relative;
-    left: 44%; 
-    top: -3.7rem;
-}
-
-.instagram {
-    width: 15%;
-    position: relative;
-    left: 80%; 
-    top: -11.6rem;
-}
-
-.youtube {
-    width: 15%;
-    position: relative;
-    left: 63%; 
-    top: -9.4rem;
-}
-
-.pinterest {
-    width: 19%;
-    position: relative;
-    left: 25%; 
-    top: -1.6rem;
-}
-
-footer  {
-    margin-top: 15rem;
-    height: 25.5rem;
+    margin-top: -14px;
 }
 
 h4  {
-    font-size: 25px;
     color: white;
     text-transform: uppercase;
-    margin-left: 7.2rem;
-    margin-top: -1.6rem;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-left: 1.2rem;
+    margin-top: -1px;
+    border-bottom:  1px solid white;
+    margin-right: 1.2rem;
+    padding: 6px 0;
+}
+
+.firstpicture   {
+    margin: 0 auto;
+    margin-top: -10rem;
+    width: 90%;
 }
 
 .whowewere  {
-    width: 20%;
+   width:20%;
     margin-left: 1.2rem;
-    border: solid 2px #990033;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
 .whoweare   {
-    width: 20%;
+   width:20%;
     margin-left: 1.2rem;
-    border: solid 2px #990033;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
 .whereweregoing {
-    width: 20%;
+   width:20%;
     margin-left: 1.2rem;
-    border: solid 2px #990033;
-    margin-top: 4rem;
-}
-
-.product1   {
-    width: 40%;
-    margin-left: 1.2rem;
-    border: solid 3px #990033;
-}
-
-.price1 {
-    margin-left: 3.5rem;
-}
-
-.product2   {
-    width: 40%;
-    border: solid 3px #990033;
-    position: relative;
-    left: 55%; 
-    top: -13.6rem;
-}
-
-.price2 {
-    position: relative;
-    left: 65%; 
-    top: -13.6rem;
-}
-    
-.product3   {
-    width: 40%;
-    border: solid 3px #990033;
-    position: relative;
-    left: 1.2rem; 
-    top: -13.6rem;
-}
-
-.price3 {
-    position: relative;
-    left: 15%;
-    top: -13.5rem;
-}
-
-.product4   {
-    width: 40%;
-    border: solid 3px #990033;
-    position: relative;
-    left: 55%; 
-    top: -27.2rem;
-}
-
-.price4 {
-    position: relative;
-    left: 65%; 
-    top: -27.2rem;
-}
-
-.product5   {
-    width: 40%;
-    border: solid 3px #990033;
-    position: relative;
-    left: 55%; 
-    top: -27.2rem;
-}
-
-.price5 {
-    position: relative;
-    left: 65%; 
-    top: -27.2rem;
-}
-
-.product6   {
-    width: 40%;
-    border: solid 3px #990033;
-    position: relative;
-    left: 1.2rem; 
-    top: -40.83rem;
-}
-
-.price6 {
-    position: relative;
-    left: 15%;
-    top: -40.83rem;
-}
-
-.product7   {
-    width: 40%;
-    border: solid 3px #990033;
-    position: relative;
-    left: 1.2rem; 
-    top: -40.83rem;
-}
-
-.price7 {
-    position: relative;
-    left: 15%;
-    top: -40.83rem;
-}
-
-.product8   {
-    width: 40%;
-    border: solid 3px #990033;
-    position: relative;
-    left: 55%; 
-    top: -54.4rem;
-}
-
-.price8 {
-    position: relative;
-    left: 65%;
-    top: -54.4rem;
+    margin-top: 8rem;
 }
