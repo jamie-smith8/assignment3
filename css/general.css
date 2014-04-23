@@ -285,5 +285,9 @@ h6  {
 
 footer  {
     padding-bottom: 1rem;
-    margin-top: 50%;
+    margin-top: 20%;
+}
+
+span    {
+    text-transform: uppercase;
 }
